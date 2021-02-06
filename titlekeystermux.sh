@@ -9,7 +9,7 @@ do
 	./hactool -t pfs0 "$i" --outdir output
 	title=$(xxd output/*.tik | grep -oP '(?<=000002a0: ).{39}' | sed 's/ //g')
 	key=$(xxd output/*.tik | grep -oP '(?<=00000180: ).{39}' | sed 's/ //g')
-	echo $title=$key >> title.keys, e.keys
+	echo $title=$key >> title.keys
 	rm -r -f output
 done
 

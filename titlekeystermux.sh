@@ -14,7 +14,7 @@ do
 	keyloc=$(printf "%x\n" $((16#$reference + 16#40)))
 	title=$(xxd "$i" | grep -oP -m 1 "(?<=$titleloc: ).{39}" | sed 's/ //g')
 	key=$(xxd "$i" | grep -oP -m 1 "(?<=$keyloc: ).{39}" | sed 's/ //g')
-	echo $title=$key >> ~/Downloads/title.keys
+	echo $title=$key >> title.keys
 done
 
 cp title.keys ~/storage/shared/Documents/title.keys

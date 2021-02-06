@@ -3,7 +3,7 @@ termux-setup-storage
 pkg update -y
 pkg install vim
 
-rm -f title.keys, ~/storage/shared/Documents/title.keys # removes any old title.keys file
+rm -f ~/storage/shared/Documents/title.keys # removes any old title.keys file
 
 shopt -s globstar # enable globstar
 
@@ -14,7 +14,6 @@ do
 	keyloc=$(printf "%x\n" $((16#$reference + 16#40)))
 	title=$(xxd "$i" | grep -oP -m 1 "(?<=$titleloc: ).{39}" | sed 's/ //g')
 	key=$(xxd "$i" | grep -oP -m 1 "(?<=$keyloc: ).{39}" | sed 's/ //g')
-	echo $title=$key >> title.keys
+	echo $title=$key
+	echo $title=$key >> ~/storage/shared/Documents/title.keys
 done
-
-cp title.keys ~/storage/shared/Documents/title.keys

@@ -1,7 +1,6 @@
 termux-setup-storage
 
-pkg update -y
-pkg install vim
+pkg install vim -y
 
 rm -f ~/storage/shared/Documents/title.keys # removes any old title.keys file
 

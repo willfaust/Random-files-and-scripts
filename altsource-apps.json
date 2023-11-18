@@ -114,31 +114,29 @@
       ]
     },
     {
-      "name": "Delta",
-      "bundleIdentifier": "com.rileytestut.delta",
-      "developerName": "rileytestut",
-      "subtitle": "Delta is an all-in-one classic video game emulator for non-jailbroken iOS devices.",
-      "version": "1.4",
-      "versionDate": "2023-02-28",
-      "downloadURL": "https://github.com/rileytestut/Delta/releases/download/v1.4/Delta_1_4.ipa",
-      "localizedDescription": "Delta is an iOS application that allows you to emulate and play video games for several classic video game systems, including Game Boy Advance, Nintendo 64, and Nintendo DS. Delta is the spiritual successor to GBA4iOS — a Game Boy Advance emulator for iOS devices Paul Thorsen and I made while in high school together — rebuilt from the ground up with modern iOS features and support for more systems.",
-      "iconURL": "https://raw.githubusercontent.com/rileytestut/Delta/main/Resources/Assets.xcassets/AppIcon.appiconset/icon-1024.png",
-      "tintColor": "#5810b2",
-      "size": 46299474,
+      "name": "UTM",
+      "bundleIdentifier": "com.utmapp.UTM",
+      "developerName": "utmapp",
+      "subtitle": "Virtual machines for iOS and macOS",
+      "version": "4.4.4",
+      "versionDate": "2023-10-20",
+      "versionDescription": "Highlights:\n\n\u2022 macOS Sonoma support: New Apple Virtualization features include save/restore VM state and dynamic resolution for macOS Sonoma guests. Note that currently, you must remove the Sound and Entropy device in order to use save/restore VM state.\n\u2022 Automatically save state when you close a VM: This will only work on VMs that support save states. If your VM does not support it, you will get an error message with an explanation.\n\u2022 (macOS) USB commands in utmctl You can now use utmctl usb commands to connect and disconnect USB devices from a running VM.",
+      "downloadURL": "https://github.com/utmapp/UTM/releases/download/v4.4.4/UTM.ipa",
+      "localizedDescription": "UTM is a full featured system emulator and virtual machine host for iOS and macOS. It is based off of QEMU. In short, it allows you to run Windows, Linux, and more on your Mac, iPhone, and iPad. More information at https://getutm.app/ and https://mac.getutm.app/",
+      "iconURL": "https://raw.githubusercontent.com/utmapp/UTM/main/Platform/Assets.xcassets/AppIcon.appiconset/Icon.png",
+      "tintColor": "#2349ce",
+      "size": 121809967,
       "screenshotURLs": [
-        "https://813386433-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FYCYX5snWo5AcJfoqPGgn%2Fuploads%2Fp7RYjAnofzrlXJ6qL3lT%2FIMG_4697.PNG?alt=media&token=49d64ef5-336d-4b89-a1ee-ccf759d9d6fc",
-        "https://813386433-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FYCYX5snWo5AcJfoqPGgn%2Fuploads%2FZ90KpckbLv7p09dos8SU%2FIMG_4231.PNG?alt=media&token=6e07ca1e-f372-470e-97ba-4c36fc5db074",
-        "https://813386433-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FYCYX5snWo5AcJfoqPGgn%2Fuploads%2FQVMwq1woAFZXY89Y62Bj%2FIMG_4244.PNG?alt=media&token=a5f68147-b7b5-40c9-a608-b0d94df24b4f",
-        "https://813386433-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FYCYX5snWo5AcJfoqPGgn%2Fuploads%2FagTJ5tMJokiK9FCOuSEN%2FIMG_4693.PNG?alt=media&token=3363582b-e032-49ba-bd8d-0c20a28797df",
-        "https://813386433-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FYCYX5snWo5AcJfoqPGgn%2Fuploads%2FMBCnMHeVlz2Hcwxn5qvd%2FIMG_4252.PNG?alt=media&token=0178aa24-c832-40a6-ba4d-da770a5f05a6",
-        "https://813386433-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FYCYX5snWo5AcJfoqPGgn%2Fuploads%2FCG6TN5F0u6Yaygn0UR0y%2FIMG_5109.PNG?alt=media&token=b2af4523-d8f0-462e-a8fb-e5a23644290c"
+        "https://i.imgur.com/J7tLjc8.png",
+        "https://i.imgur.com/COB5Ws7.jpeg"
       ],
       "versions": [
         {
-          "version": "1.4",
-          "date": "2023-02-28",
-          "downloadURL": "https://github.com/rileytestut/Delta/releases/download/v1.4/Delta_1_4.ipa",
-          "size": 46299474
+          "version": "4.4.4",
+          "versionDate": "2023-10-20",
+          "downloadURL": "https://github.com/utmapp/UTM/releases/download/v4.4.4/UTM.ipa",
+          "localizedDescription": "Highlights:\n\n\u2022 macOS Sonoma support: New Apple Virtualization features include save/restore VM state and dynamic resolution for macOS Sonoma guests. Note that currently, you must remove the Sound and Entropy device in order to use save/restore VM state.\n\u2022 Automatically save state when you close a VM: This will only work on VMs that support save states. If your VM does not support it, you will get an error message with an explanation.\n\u2022 (macOS) USB commands in utmctl You can now use utmctl usb commands to connect and disconnect USB devices from a running VM.",
+          "size": 121809967
         }
       ]
     }

@@ -120,7 +120,7 @@
       "subtitle": "Virtual machines for iOS and macOS",
       "version": "4.4.4",
       "versionDate": "2023-10-20",
-      "versionDescription": "Highlights:\n\n\u2022 macOS Sonoma support: New Apple Virtualization features include save/restore VM state and dynamic resolution for macOS Sonoma guests. Note that currently, you must remove the Sound and Entropy device in order to use save/restore VM state.\n\u2022 Automatically save state when you close a VM: This will only work on VMs that support save states. If your VM does not support it, you will get an error message with an explanation.\n\u2022 (macOS) USB commands in utmctl You can now use utmctl usb commands to connect and disconnect USB devices from a running VM.",
+      "versionDescription": "Highlights:\n\n\u2022 macOS Sonoma support: New Apple Virtualization features include save/restore VM state and dynamic resolution for macOS Sonoma guests. Note that currently, you must remove the Sound and Entropy device in order to use save/restore VM state.\n\n\u2022 Automatically save state when you close a VM: This will only work on VMs that support save states. If your VM does not support it, you will get an error message with an explanation.\n\n\u2022 (macOS) USB commands in utmctl You can now use utmctl usb commands to connect and disconnect USB devices from a running VM.",
       "downloadURL": "https://github.com/utmapp/UTM/releases/download/v4.4.4/UTM.ipa",
       "localizedDescription": "UTM is a full featured system emulator and virtual machine host for iOS and macOS. It is based off of QEMU. In short, it allows you to run Windows, Linux, and more on your Mac, iPhone, and iPad. More information at https://getutm.app/ and https://mac.getutm.app/",
       "iconURL": "https://raw.githubusercontent.com/utmapp/UTM/main/Platform/Assets.xcassets/AppIcon.appiconset/Icon.png",
@@ -135,7 +135,7 @@
           "version": "4.4.4",
           "date": "2023-10-20",
           "downloadURL": "https://github.com/utmapp/UTM/releases/download/v4.4.4/UTM.ipa",
-          "localizedDescription": "Highlights:\n\n\u2022 macOS Sonoma support: New Apple Virtualization features include save/restore VM state and dynamic resolution for macOS Sonoma guests. Note that currently, you must remove the Sound and Entropy device in order to use save/restore VM state.\n\u2022 Automatically save state when you close a VM: This will only work on VMs that support save states. If your VM does not support it, you will get an error message with an explanation.\n\u2022 (macOS) USB commands in utmctl You can now use utmctl usb commands to connect and disconnect USB devices from a running VM.",
+          "localizedDescription": "Highlights:\n\n\u2022 macOS Sonoma support: New Apple Virtualization features include save/restore VM state and dynamic resolution for macOS Sonoma guests. Note that currently, you must remove the Sound and Entropy device in order to use save/restore VM state.\n\n\u2022 Automatically save state when you close a VM: This will only work on VMs that support save states. If your VM does not support it, you will get an error message with an explanation.\n\n\u2022 (macOS) USB commands in utmctl You can now use utmctl usb commands to connect and disconnect USB devices from a running VM.",
           "size": 121809967
         }
       ]

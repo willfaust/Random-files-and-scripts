@@ -1,7 +1,7 @@
 {
   "name": "Will Faust's AltSource",
-  "identifier": "com.willfaust.apps",
-  "sourceURL": "https://raw.githubusercontent.com/willfaust/Random-files-and-scripts/main/altsource-apps.json",
+  "identifier": "com.willfaust.altsource",
+  "sourceURL": "https://willfaust.github.io/altsource-apps.json",
   "apps": [
     {
       "name": "Firebird Emu",
@@ -112,6 +112,6 @@
           "size": 21218913
         }
       ]
-    },
-  ],
+    }
+  ]
 }

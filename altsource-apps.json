@@ -146,7 +146,7 @@
       "developerName": "Apple",
       "subtitle": "Utility for testing Apple's internal network.",
       "version": "3.0.5",
-      "versionDate": "2023-03-08",
+      "versionDate": "2022-03-08",
       "versionDescription": "",
       "downloadURL": "https://dl.dropbox.com/scl/fi/zxqj3jry096v90fb98x4y/florence.ipa?rlkey=bzo2r69rx1joj03q9u89r1p0x",
       "localizedDescription": "Florence is used primarily to provide its users with information about their connection to Apple's network.",
@@ -162,7 +162,7 @@
       "versions": [
         {
           "version": "3.0.5",
-          "date": "2023-03-08",
+          "date": "2022-03-08",
           "downloadURL": "https://dl.dropbox.com/scl/fi/zxqj3jry096v90fb98x4y/florence.ipa?rlkey=bzo2r69rx1joj03q9u89r1p0x",
           "localizedDescription": "",
           "size": 2996076
